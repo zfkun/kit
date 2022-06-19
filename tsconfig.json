@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "module": "es6",
+        "target": "es5",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "allowJs": true,
+        "declaration": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "noImplicitAny": true,
+        "baseUrl": "./",
+        "paths": {
+            "@/*": ["src/*"],
+            "@canvas/*": ["src/canvas/*"]
+        },
+        "outDir": "./out",
+        "declarationDir": "./es"
+    },
+    "include": ["src//**/*.ts"],
+    // "exclude": ["dist","node_modules"]
+}
